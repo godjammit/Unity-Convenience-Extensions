@@ -13,4 +13,4 @@ Some convenience extensions I use in every project. It's just one file, grab it 
   * Returns a random element from an array or list.
  
 ## Usage
-All of these methods appear as methods, as if they were built into Unity. As an example, you can call `this.GetCreateComponent<SpriteRenderer>()` from a MonoBehavior. Just download the `Extensions.cs` file and add it to your Unity project.
+All of these methods appear as methods, as if they were built into Unity. As an example, you can call `this.GetCreateComponent<SpriteRenderer>()` from a MonoBehavior. Just download the [`Extensions.cs`](https://github.com/godjammit/Unity-Convenience-Extensions/blob/master/Extensions.cs) file and add it to your Unity project.
