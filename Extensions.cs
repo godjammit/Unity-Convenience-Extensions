@@ -32,8 +32,6 @@ public static class Extensions
 		var bufferSize = Marshal.SizeOf(typeof(T));
 		var handle = Marshal.AllocHGlobal(bufferSize);
 
-		var packet = new T(); //?
-
 		Marshal.Copy(bytes, 0, handle, bufferSize);
 
 		var returnVal = Marshal.PtrToStructure<T>(handle);
