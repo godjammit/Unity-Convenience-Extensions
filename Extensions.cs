@@ -108,7 +108,7 @@ public static class Extensions
 
 
 	#region RANDOM
-	public static T GetRandom<T>(this List<T> list)
+	public static T GetRandom<T>(this IList<T> list)
 	{
 		if (list == null || list.Count <= 0)
 		{
